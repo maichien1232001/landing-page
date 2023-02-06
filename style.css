@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(0, #dbd8d7, #8fbaf4);
+    height: 400px;
+}
+
+.img_neteasy{
+    width: 220px;
+    height: 120px;
+    margin-right: 25%;
+    margin-left: 5%;
+}
+
+.intro-content a{
+    background-color: aqua;
+    text-decoration: none;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 4px;
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+.intro{
+    display: flex;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.intro-content{
+    margin-right: 52px;
+}
+
+.intro-img img{
+    border-radius: 8px;
+    height: 240px;
+
+}
+
+nav{
+    height: 60%;
+}
+
+.nav_parent li{
+    position: relative;
+}
+
+.nav_parents{
+    display: flex;
+
+}
+
+.nav_parents li{
+    list-style: none;
+    padding: 42px;
+}
+
+.nav_parents li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    height: 40px;
+    
+}
+
+.nav_parents li:hover a{
+    color: #f5032d;
+}
+.nav_children li{
+   
+}
+
+.nav_children {
+    position: absolute;
+    top: 100%;
+    left: 12px;
+    margin-top: -15%;
+    display: none;
+
+}
+
+.nav_parents >li:hover .nav_children{
+    display: block;
+}
+
+.nav_children li:hover a{
+    color: #000;
+}
+
+/* Content */
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction{
+    background-color: #ccc;
+    height: 150px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introduction h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.introduction p{
+    width: 100%;
+    text-align: center;
+
+}
+
+.event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 56px;
+}
+
+.block{
+    margin-right: 46px;
+}
+
+.event a img{
+    width: 120px;
+    height: 120px;
+}
+
+.event span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event span:hover{
+    cursor: pointer;
+    color: #9b9696;
+}
+
+.shiki{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.shikigami_content img{
+    width: 100%;
+    height: 75%;
+}
+
+
+.sign-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #febed9;
+    height: 120px;
+    margin: 0 112px 72px 112px;
+    border: 1px solid #febed9;
+    border-radius: 8px;
+}
+
+.sign-up-btn a{
+    background-color: aqua;
+    text-decoration: none;
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+footer{
+    border-top: 4px solid #000;
+    padding-top: 16px;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b9696;
+    margin-top: -16px;
+}
